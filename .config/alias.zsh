@@ -1,12 +1,9 @@
-# Aliases configuration
-# Add your aliases here 
-
 case "${OSTYPE}" in
     linux*)
         alias pbcopy='xclip -selection clipboard'
         alias pbpaste='xclip -selection clipboard -o'
         ;;
-esac 
+esac
 
 
 alias ccw='cc -Wall -Wextra -Werror'
@@ -15,4 +12,3 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
 alias gsw='git switch'
-
